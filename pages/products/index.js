@@ -17,7 +17,7 @@ export default function products({products}) {
                 {products.map(product=>(
                     <Link href={"/products/"+product.id} key={product.id}>
                         <a className={styles.single}>
-                        <h3>{product.title}</h3>
+                            <h3>{product.title}</h3>
                         </a>
                     </Link>
 
